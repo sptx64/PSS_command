@@ -5,7 +5,6 @@ from streamlit_extras.metric_cards import style_metric_cards
 
 
 "# Greenfest Ouenghi"
-"Application web pour éviter de créer un excel à chaque commande PSS."
 
 "### 🏄‍ COMMANDE"
 "Commencez par sélectionner les participants à la commande et le nombre d'articles!"

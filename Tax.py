@@ -7,6 +7,7 @@ from streamlit_extras.metric_cards import style_metric_cards
 "# Facture PSS"
 
 "### 🏄‍ COMMANDE"
+"Commencez par sélectionner les participants à la commande et le nombre d'articles!"
 list_riders = ["Flo","Jerome", "Pierric", "Vincent"]
 col1,col2,col3 = st.columns(3)
 riders = col1.multiselect("Selectionner les acheteurs", list_riders)
@@ -14,12 +15,13 @@ nb_articles = col2.number_input("Nombre d'articles",1,50,1)
 
 cfp_eur_conv = 119
 
-""
-"---"
-""
-"### 🚲 DETAIL COMMANDE"
+
 
 if len(riders)>0 :
+	""
+	"---"
+	""
+	"### 🚲 DETAIL COMMANDE"
 	prix_eur_xfp = st.radio("Prix des articles en euros ou xfp ?", ["EUR", "CFP"])
 	""
 	""

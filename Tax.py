@@ -4,7 +4,7 @@ import numpy as np
 from streamlit_extras.metric_cards import style_metric_cards
 
 
-"# Facture PSS"
+"# Greenfest Ouenghi commandes"
 
 "### 🏄‍ COMMANDE"
 "Commencez par sélectionner les participants à la commande et le nombre d'articles!"

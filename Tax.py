@@ -19,7 +19,8 @@ cfp_eur_conv = 119
 
 
 if len(riders)>0 :
-	st.success(",".join(riders) + " participe(nt) à la commande!")
+	str_2 = " participent à la commande!" if len(riders) > 1 else " participe à la commande!"
+	st.success(",".join(riders) + str_2)
 	""
 	"---"
 	""
